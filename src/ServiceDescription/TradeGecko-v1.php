@@ -6789,16 +6789,7 @@ return [
                 'event' => [
                     'location' => 'json',
                     'type' => 'string',
-                    'required' => true,
-                    'enum' => [
-                        'account.update', 'user.create', 'product.create', 'product.update', 'product.destroy', 'variant.create',
-                        'variant.update', 'variant.destroy', 'image.create', 'image.update', 'image.destroy', 'company.create', 'company.update',
-                        'company.destroy', 'contact.create', 'contact.update', 'contact.destroy', 'address.create', 'address.update',
-                        'address.destroy', 'order.create', 'order.update', 'order.destroy', 'invoice.create', 'invoice.update', 'invoice.destroy',
-                        'fulfillment.create', 'fulfillment.update', 'fulfillment.destroy', 'purchase_order.create', 'purchase_order.update',
-                        'purchase_order.destroy', 'procurement.create', 'procurement.update procurement.destroy', 'stock_adjustment.create',
-                        'stock_adjustment.update', 'stock_adjustment.destroy', 'stock_transfer.create', 'stock_transfer.update', 'stock_transfer.destroy'
-                    ]
+                    'required' => true
                 ],
             ],
         ],
@@ -6819,16 +6810,7 @@ return [
                 'event' => [
                     'location' => 'json',
                     'type' => 'string',
-                    'required' => false,
-                    'enum' => [
-                        'account.update', 'user.create', 'product.create', 'product.update', 'product.destroy', 'variant.create',
-                        'variant.update', 'variant.destroy', 'image.create', 'image.update', 'image.destroy', 'company.create', 'company.update',
-                        'company.destroy', 'contact.create', 'contact.update', 'contact.destroy', 'address.create', 'address.update',
-                        'address.destroy', 'order.create', 'order.update', 'order.destroy', 'invoice.create', 'invoice.update', 'invoice.destroy',
-                        'fulfillment.create', 'fulfillment.update', 'fulfillment.destroy', 'purchase_order.create', 'purchase_order.update',
-                        'purchase_order.destroy', 'procurement.create', 'procurement.update procurement.destroy', 'stock_adjustment.create',
-                        'stock_adjustment.update', 'stock_adjustment.destroy', 'stock_transfer.create', 'stock_transfer.update', 'stock_transfer.destroy'
-                    ]
+                    'required' => false
                 ],
             ],
         ],
